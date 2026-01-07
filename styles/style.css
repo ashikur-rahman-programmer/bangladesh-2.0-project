@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Fira Sans", sans-serif;
+}
+header {
+  max-width: 1600px;
+  width: 100%;
+}
+
+/* navbar */
+nav {
+  max-width: 1280px;
+  width: 100%;
+  padding: 24px 0;
+  margin: 0px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.btn button {
+  padding: 10px 25px;
+  font-size: 18px;
+  border-radius: 5px;
+  font-weight: 600;
+  border: 2px solid rgba(0, 106, 80, 1);
+  color: rgba(0, 106, 80, 1);
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn button:hover {
+  background: #54ffe217;
+}
+.btn button:active {
+  transform: translateY(3px);
+}
+
+/* banner */
+#banner {
+  max-width: 1280px;
+  width: 100%;
+  display: flex;
+  gap: 64px;
+  border-radius: 10px;
+  align-items: center;
+  margin: 0 auto;
+  padding: 80px 60px;
+  background: #c6e4d6;
+  margin-top: 20px;
+}
+.banner-content h3 {
+  font-size: 24;
+  font-weight: 500;
+  color: rgba(14, 14, 14, 0.5);
+  margin-bottom: 16px;
+}
+.banner-content h1 {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 66px;
+  margin-bottom: 24px;
+  color: rgba(14, 14, 14, 1);
+}
+.banner-content button {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 5px;
+  border: none;
+  padding: 17px 34px;
+  background-color: rgba(0, 106, 80, 1);
+  cursor: pointer;
+}
+.banner-content button:hover {
+  background-color: rgba(0, 106, 80, 0.884);
+}
+.banner-content button:active {
+  transform: translateY(3px);
+}
