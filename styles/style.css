@@ -9,6 +9,31 @@ header {
   width: 100%;
 }
 
+/* common style */
+.heading-2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+
+.img {
+  max-width: 64px;
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+.heading-3 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 12px;
+  color: #333;
+}
+.para {
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(14, 14, 14, 0.7);
+}
+
 /* navbar */
 nav {
   max-width: 1280px;
@@ -84,4 +109,22 @@ nav {
 }
 .banner-content button:active {
   transform: translateY(3px);
+}
+
+/* pillars section */
+#pillars {
+  padding-top: 80px;
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+.pillar-cards {
+  display: flex;
+  gap: 24px;
+}
+.pillar-cards .card {
+  padding: 24px;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 10px;
+  box-shadow: 0 2px 15px #92929283;
 }
