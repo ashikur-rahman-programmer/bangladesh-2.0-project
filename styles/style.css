@@ -33,6 +33,25 @@ header {
   line-height: 24px;
   color: rgba(14, 14, 14, 0.7);
 }
+.btn-common {
+  font-size: 16px;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #fff;
+  font-weight: 500;
+  background: rgba(0, 106, 80, 1);
+  border: none;
+  margin-top: 32px;
+  transition: all 0.3s;
+}
+
+.btn-common:hover {
+  background-color: rgba(0, 106, 80, 0.808);
+}
+.btn-common:active {
+  transform: translateY(3px);
+}
 
 /* navbar */
 nav {
@@ -114,7 +133,8 @@ nav {
 /* pillars section */
 #pillars,
 #future,
-#opinion {
+#opinion,
+#news {
   padding-top: 80px;
   max-width: 1280px;
   width: 100%;
@@ -233,4 +253,42 @@ nav {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12'%3E%3Cpath d='M2 4l4 4 4-4' stroke='%23000' fill='none' stroke-width='2'/%3E%3C/svg%3E");
   background-repeat: no-repeat;
   background-position: right 20px center;
+}
+
+/* news */
+.news-cards-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 24px;
+}
+.news-cards {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  padding: 48px;
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0 2px 10px #3333332d;
+}
+.revers-card {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.news-cards img {
+  max-width: 410px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.news-card-content h2 {
+  font-size: 32px;
+  margin-bottom: 12px;
+}
+.news-card-content img {
+  max-width: 134px;
+  margin-bottom: 12px;
+}
+.news-card-content p span {
+  margin-left: 12px;
 }
